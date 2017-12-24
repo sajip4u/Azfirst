@@ -1,0 +1,24 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vnetName":{
+            "value":"ProdVnet1"
+        },
+        "addressPrefix":{
+            "value":"192.168.0.0/16"
+        },
+        "subnet1Name":{
+            "value":"Prod-Front-End1"
+        },
+        "subnet2Name":{
+            "value":"Prod-Back-End1"
+        },
+        "subnet1Prefix":{
+            "value":"192.168.1.0/24"
+        },
+        "subnet2Prefix":{
+            "value":"192.168.2.0/24"
+        }
+    }
+}
